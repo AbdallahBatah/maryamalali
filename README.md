@@ -9,6 +9,7 @@ Bilingual (English / Arabic) website for Emirati macro photographer **Maryam Aal
 | `public/` | The website. Deploy this folder as-is to any static host (Netlify, Vercel, Cloudflare Pages, cPanel). English pages at the root, Arabic in `public/ar/`, admin at `public/admin.html`. |
 | `supabase/` | `schema.sql` (tables, security rules, booking function, storage) and `seed.sql` (starter content). Run both once in the Supabase SQL Editor. |
 | `src/` | Source used to generate the HTML pages: `build.py`, styles and scripts. Edit here, then run `python3 src/build.py` to regenerate `public/`. |
+| `originals/` | Source material: original photos, full-resolution portfolio images, brand guidelines and portfolio PDF. Not deployed. |
 | `SETUP.md` | Step-by-step go-live guide: Supabase, admin login, connecting the site, publishing, testing. |
 
 ## Going live
