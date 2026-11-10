@@ -1,0 +1,6 @@
+# macro by maryam
+User-agent: *
+Allow: /
+Disallow: /admin.html
+
+Sitemap: https://macrobymaryam.com/sitemap.xml
